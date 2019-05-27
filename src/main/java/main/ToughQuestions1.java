@@ -51,7 +51,7 @@ public class ToughQuestions1 {
 
 
 
-class Account {
+class Account extends ToughQuestions1{
     private int acc_no;
     private int bal;
     private String acc_name;
@@ -77,4 +77,4 @@ class Account {
     int debit(Integer debit) {
          return bal = bal - debit;
     }
-}
+};
